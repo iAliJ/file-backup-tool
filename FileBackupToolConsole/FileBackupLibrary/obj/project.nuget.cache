@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "UvaSsz0v2V8b9IrYN1RB5bnfxumGvhFmD4+N7Eyo61Qa7UqyA/eKf3TnDvjLE63wFPKBb3zlUdSUaiOono7B5Q==",
+  "success": true,
+  "projectFilePath": "D:\\Programming\\Projects\\2020\\200822 File Backup Tool\\file-backup-tool\\FileBackupToolConsole\\FileBackupLibrary\\FileBackupLibrary.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Ali\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
