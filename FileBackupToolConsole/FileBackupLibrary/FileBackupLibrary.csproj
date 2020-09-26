@@ -4,4 +4,10 @@
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Reference Include="DirectoryHelperCL">
+      <HintPath>..\..\..\..\..\Final Products\Class Library\Directory Helper Library\DirectoryHelperCL.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>
