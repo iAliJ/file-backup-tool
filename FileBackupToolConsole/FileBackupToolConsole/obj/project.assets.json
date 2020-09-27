@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {}
+    ".NETCoreApp,Version=v3.1": {
+      "FileBackupLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/FileBackupLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FileBackupLibrary.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "FileBackupLibrary/1.0.0": {
+      "type": "project",
+      "path": "../FileBackupLibrary/FileBackupLibrary.csproj",
+      "msbuildProject": "../FileBackupLibrary/FileBackupLibrary.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": []
+    ".NETCoreApp,Version=v3.1": [
+      "FileBackupLibrary >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Ali\\.nuget\\packages\\": {},
@@ -39,7 +58,11 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\Programming\\Projects\\2020\\200822 File Backup Tool\\file-backup-tool\\FileBackupToolConsole\\FileBackupLibrary\\FileBackupLibrary.csproj": {
+              "projectPath": "D:\\Programming\\Projects\\2020\\200822 File Backup Tool\\file-backup-tool\\FileBackupToolConsole\\FileBackupLibrary\\FileBackupLibrary.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
